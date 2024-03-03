@@ -1,5 +1,5 @@
 libsort_a.a: sort_a.o
-	$(shell ar rcs $@ $^)
+	ar rcs $@ $^
 
 libsort_so.so: sort_so.o
 	gcc -shared $^ -o $@

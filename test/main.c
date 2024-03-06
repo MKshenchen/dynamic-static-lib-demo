@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 int main() {
-  int a[] = {10, 6, 9, 2, 1, 8, 7};
+  int a[] = {9, 6, 1, 8, 4, 0, 2};
+  printf("ori's arr: ");
+  for (int i = 0; i < 7; printf("%d ", a[i++]));
   quickSort(a, 0, 6);
-  for (int i = 0; i < 7; i++) {
-    printf("%d ", a[i]);
-  }
+  printf("after aort: ");
+  for (int i = 0; i < 7; printf("%d ", a[i++]));
   printf("\n");
   return 0;
 }

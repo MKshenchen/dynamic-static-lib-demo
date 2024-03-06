@@ -1,5 +1,5 @@
-#include "sort.h"
 #include <stdio.h>
+#include "../lib/sort.h"
 
 int main() {
   int a[] = {9, 6, 1, 8, 4, 0, 2};

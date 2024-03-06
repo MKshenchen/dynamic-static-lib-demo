@@ -2,7 +2,7 @@ libsort_a.a: sort_a.o
 	ar rcs $@ $^
 
 libsort_so.so: sort_so.o
-	gcc -shared $^ -o $@
+	gcc -shared -o $@ $^
 
 sort_a.o: sort.c
 	gcc -c $^ -o $@

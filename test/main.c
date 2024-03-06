@@ -6,7 +6,7 @@ int main() {
   printf("ori's arr: ");
   for (int i = 0; i < 7; printf("%d ", a[i++]));
   quickSort(a, 0, 6);
-  printf("after aort: ");
+  printf("after sort: ");
   for (int i = 0; i < 7; printf("%d ", a[i++]));
   printf("\n");
   return 0;
